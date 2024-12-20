@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock and Roll</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo2.jpg" alt="Mock and Roll Logo">
+        </div>
+        <h1>Welcome to Mock and Roll</h1>
+        <form action="/signin" method="POST">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <button onclick="window.location.href='content.html'">Sign In</button>
+            <!-- <button type="submit"><a href='content.html'>Sign In</a></button> -->
+            <!-- <button type="submit"> Sign In </button>  -->
+        </form>
+        <p class="create-account">Don't have an account?<a onclick="window.location.href='signup.html'">Create an account</a></p>
+    </div>
+</body>
+</html>
