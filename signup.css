@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,13 +12,14 @@ body {
     justify-content: center;
     align-items: center;
     color: #fff;
+    padding: 10px;
 }
 
 .container {
     background: #f1f1f3;
     border-radius: 20px;
     padding: 2rem;
-    width: 40%;
+    width: 90%;
     max-width: 400px;
     box-shadow: 0 8px 16px rgba(7, 7, 7, 0.3);
     text-align: center;
@@ -83,4 +84,35 @@ button:hover {
 
 .create-account a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input, button {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 1rem;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    input, button {
+        font-size: 0.8rem;
+    }
 }
