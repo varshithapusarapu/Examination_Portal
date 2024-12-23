@@ -56,3 +56,49 @@ body {
 .submit-button:hover {
     background-color: #218838;
 }
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px; /* Increase the max-width for larger screens */
+        padding: 40px; /* Add more padding on larger screens */
+    }
+
+    .exercise-header h2 {
+        font-size: 24px; /* Larger header font size */
+    }
+
+    .instruction {
+        font-size: 18px; /* Larger font size for instructions */
+    }
+
+    .option {
+        margin-bottom: 20px; /* Increased margin between options */
+    }
+
+    .submit-button {
+        padding: 15px; /* Larger button padding */
+        font-size: 18px; /* Larger button font size */
+    }
+}
+
+/* Media Query for Extra Large Screens (Desktop / Large Laptops) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px; /* Further increase max-width for very large screens */
+        padding: 60px; /* Add even more padding */
+    }
+
+    .exercise-header h2 {
+        font-size: 28px; /* Even larger font size for very large screens */
+    }
+
+    .instruction {
+        font-size: 20px; /* Larger instruction text */
+    }
+
+    .submit-button {
+        padding: 20px; /* Extra padding for submit button */
+        font-size: 20px; /* Increase button font size */
+    }
+}
